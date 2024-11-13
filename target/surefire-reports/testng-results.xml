@@ -1,80 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+<testng-results retried="15" ignored="0" total="18" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-13T18:07:45 IST" name="Suite" finished-at="2024-11-13T18:09:06 IST" duration-ms="81383">
+  <suite started-at="2024-11-13T18:17:07 IST" name="Suite" finished-at="2024-11-13T18:19:04 IST" duration-ms="116716">
     <groups>
       <group name="regressiontest">
-        <method signature="OrganizationCreationByUsingBaseClassTest.CreateOrgWithIndustryTypeTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" name="CreateOrgWithIndustryTypeTest" class="CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest"/>
-        <method signature="OrganizationCreationByUsingBaseClassTest.CreateOrgWithPhoneNumberTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" name="CreateOrgWithPhoneNumberTest" class="CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest"/>
-        <method signature="CreatingProductByUsingBaseClassTest.CreateProductWithPortNumberTest()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" name="CreateProductWithPortNumberTest" class="CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest"/>
-        <method signature="CreatingProductByUsingBaseClassTest.CreateProductWithStartAndEndDateTset()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" name="CreateProductWithStartAndEndDateTset" class="CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest"/>
+        <method signature="CreateContactTest.CreateContactWithOrgNameTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" name="CreateContactWithOrgNameTest" class="CreateContactRealTeatScriptUsingBaseClass.CreateContactTest"/>
+        <method signature="CreateContactTest.CreatecontactwithSystemDateTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" name="CreatecontactwithSystemDateTest" class="CreateContactRealTeatScriptUsingBaseClass.CreateContactTest"/>
       </group> <!-- regressiontest -->
       <group name="smoketest">
-        <method signature="OrganizationCreationByUsingBaseClassTest.CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" name="CreateOrgTest" class="CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest"/>
-        <method signature="CreatingProductByUsingBaseClassTest.CreateProductTest()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" name="CreateProductTest" class="CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" name="createContactTest" class="CreateContactRealTeatScriptUsingBaseClass.CreateContactTest"/>
       </group> <!-- smoketest -->
     </groups>
-    <test started-at="2024-11-13T18:07:45 IST" name="Test" finished-at="2024-11-13T18:09:06 IST" duration-ms="81383">
-      <class name="CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest">
-        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:25 IST" name="configBc" finished-at="2024-11-13T18:08:26 IST" duration-ms="1551" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:26 IST" name="configBm" finished-at="2024-11-13T18:08:30 IST" duration-ms="3324" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBm -->
-        <test-method signature="CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:30 IST" name="CreateOrgTest" finished-at="2024-11-13T18:08:38 IST" duration-ms="8046" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOrgTest -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:38 IST" name="configAm" finished-at="2024-11-13T18:08:39 IST" duration-ms="1321" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:39 IST" name="configBm" finished-at="2024-11-13T18:08:42 IST" duration-ms="2521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBm -->
-        <test-method signature="CreateOrgWithIndustryTypeTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:42 IST" name="CreateOrgWithIndustryTypeTest" finished-at="2024-11-13T18:08:51 IST" duration-ms="9444" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOrgWithIndustryTypeTest -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:51 IST" name="configAm" finished-at="2024-11-13T18:08:52 IST" duration-ms="1326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:52 IST" name="configBm" finished-at="2024-11-13T18:08:55 IST" duration-ms="2701" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBm -->
-        <test-method signature="CreateOrgWithPhoneNumberTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:08:55 IST" name="CreateOrgWithPhoneNumberTest" finished-at="2024-11-13T18:09:04 IST" duration-ms="9171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOrgWithPhoneNumberTest -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:09:04 IST" name="configAm" finished-at="2024-11-13T18:09:06 IST" duration-ms="1362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAc()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest@2d7275fc]" started-at="2024-11-13T18:09:06 IST" name="configAc" finished-at="2024-11-13T18:09:06 IST" duration-ms="262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAc -->
-      </class> <!-- CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClassTest -->
-      <class name="CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest">
-        <test-method is-config="true" signature="configBs()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:07:44 IST" name="configBs" finished-at="2024-11-13T18:07:45 IST" duration-ms="192" status="PASS">
+    <test started-at="2024-11-13T18:17:07 IST" name="Test" finished-at="2024-11-13T18:19:04 IST" duration-ms="116716">
+      <class name="CreateContactRealTeatScriptUsingBaseClass.CreateContactTest">
+        <test-method is-config="true" signature="configBs()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:07 IST" name="configBs" finished-at="2024-11-13T18:17:07 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBs -->
-        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:07:45 IST" name="configBc" finished-at="2024-11-13T18:07:48 IST" duration-ms="3442" status="PASS">
+        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:07 IST" name="configBc" finished-at="2024-11-13T18:17:10 IST" duration-ms="3265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,51 +29,951 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:07:48 IST" name="configBm" finished-at="2024-11-13T18:07:52 IST" duration-ms="3437" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:10 IST" name="configBm" finished-at="2024-11-13T18:17:14 IST" duration-ms="3627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="CreateProductTest()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:07:52 IST" name="CreateProductTest" finished-at="2024-11-13T18:07:59 IST" duration-ms="7709" status="PASS">
+        <test-method retried="true" signature="CreateContactWithOrgNameTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:14 IST" name="CreateContactWithOrgNameTest" finished-at="2024-11-13T18:17:14 IST" duration-ms="9" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreateContactWithOrgNameTest(CreateContactTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateProductTest -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:07:59 IST" name="configAm" finished-at="2024-11-13T18:08:01 IST" duration-ms="1524" status="PASS">
+        </test-method> <!-- CreateContactWithOrgNameTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:14 IST" name="configAm" finished-at="2024-11-13T18:17:17 IST" duration-ms="3381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:08:01 IST" name="configBm" finished-at="2024-11-13T18:08:04 IST" duration-ms="2768" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:17 IST" name="configBm" finished-at="2024-11-13T18:17:20 IST" duration-ms="2621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="CreateProductWithPortNumberTest()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:08:04 IST" name="CreateProductWithPortNumberTest" finished-at="2024-11-13T18:08:12 IST" duration-ms="8018" status="PASS">
+        <test-method retried="true" signature="CreateContactWithOrgNameTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:20 IST" name="CreateContactWithOrgNameTest" finished-at="2024-11-13T18:17:20 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreateContactWithOrgNameTest(CreateContactTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateProductWithPortNumberTest -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:08:12 IST" name="configAm" finished-at="2024-11-13T18:08:13 IST" duration-ms="1312" status="PASS">
+        </test-method> <!-- CreateContactWithOrgNameTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:20 IST" name="configAm" finished-at="2024-11-13T18:17:23 IST" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:08:13 IST" name="configBm" finished-at="2024-11-13T18:08:15 IST" duration-ms="2369" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:23 IST" name="configBm" finished-at="2024-11-13T18:17:26 IST" duration-ms="2808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="CreateProductWithStartAndEndDateTset()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:08:15 IST" name="CreateProductWithStartAndEndDateTset" finished-at="2024-11-13T18:08:23 IST" duration-ms="8130" status="PASS">
+        <test-method retried="true" signature="CreateContactWithOrgNameTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:26 IST" name="CreateContactWithOrgNameTest" finished-at="2024-11-13T18:17:26 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreateContactWithOrgNameTest(CreateContactTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateProductWithStartAndEndDateTset -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:08:23 IST" name="configAm" finished-at="2024-11-13T18:08:25 IST" duration-ms="1283" status="PASS">
+        </test-method> <!-- CreateContactWithOrgNameTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:26 IST" name="configAm" finished-at="2024-11-13T18:17:30 IST" duration-ms="3536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAc()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:08:25 IST" name="configAc" finished-at="2024-11-13T18:08:25 IST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:30 IST" name="configBm" finished-at="2024-11-13T18:17:32 IST" duration-ms="2512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreateContactWithOrgNameTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:32 IST" name="CreateContactWithOrgNameTest" finished-at="2024-11-13T18:17:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreateContactWithOrgNameTest(CreateContactTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithOrgNameTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:32 IST" name="configAm" finished-at="2024-11-13T18:17:36 IST" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:36 IST" name="configBm" finished-at="2024-11-13T18:17:38 IST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreateContactWithOrgNameTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:38 IST" name="CreateContactWithOrgNameTest" finished-at="2024-11-13T18:17:38 IST" duration-ms="2" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreateContactWithOrgNameTest(CreateContactTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithOrgNameTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:38 IST" name="configAm" finished-at="2024-11-13T18:17:42 IST" duration-ms="3503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:42 IST" name="configBm" finished-at="2024-11-13T18:17:44 IST" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method signature="CreateContactWithOrgNameTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:44 IST" name="CreateContactWithOrgNameTest" finished-at="2024-11-13T18:17:44 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreateContactWithOrgNameTest(CreateContactTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithOrgNameTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:44 IST" name="configAm" finished-at="2024-11-13T18:17:48 IST" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:48 IST" name="configBm" finished-at="2024-11-13T18:17:51 IST" duration-ms="2878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreatecontactwithSystemDateTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:51 IST" name="CreatecontactwithSystemDateTest" finished-at="2024-11-13T18:17:51 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreatecontactwithSystemDateTest(CreateContactTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatecontactwithSystemDateTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:51 IST" name="configAm" finished-at="2024-11-13T18:17:54 IST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:54 IST" name="configBm" finished-at="2024-11-13T18:17:57 IST" duration-ms="2846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreatecontactwithSystemDateTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:57 IST" name="CreatecontactwithSystemDateTest" finished-at="2024-11-13T18:17:57 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreatecontactwithSystemDateTest(CreateContactTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatecontactwithSystemDateTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:17:57 IST" name="configAm" finished-at="2024-11-13T18:18:01 IST" duration-ms="3519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:01 IST" name="configBm" finished-at="2024-11-13T18:18:03 IST" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreatecontactwithSystemDateTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:03 IST" name="CreatecontactwithSystemDateTest" finished-at="2024-11-13T18:18:03 IST" duration-ms="3" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreatecontactwithSystemDateTest(CreateContactTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatecontactwithSystemDateTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:03 IST" name="configAm" finished-at="2024-11-13T18:18:07 IST" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:07 IST" name="configBm" finished-at="2024-11-13T18:18:10 IST" duration-ms="2711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreatecontactwithSystemDateTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:10 IST" name="CreatecontactwithSystemDateTest" finished-at="2024-11-13T18:18:10 IST" duration-ms="2" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreatecontactwithSystemDateTest(CreateContactTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatecontactwithSystemDateTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:10 IST" name="configAm" finished-at="2024-11-13T18:18:13 IST" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:13 IST" name="configBm" finished-at="2024-11-13T18:18:16 IST" duration-ms="2713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreatecontactwithSystemDateTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:16 IST" name="CreatecontactwithSystemDateTest" finished-at="2024-11-13T18:18:16 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreatecontactwithSystemDateTest(CreateContactTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatecontactwithSystemDateTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:16 IST" name="configAm" finished-at="2024-11-13T18:18:20 IST" duration-ms="3637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:20 IST" name="configBm" finished-at="2024-11-13T18:18:22 IST" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method signature="CreatecontactwithSystemDateTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:22 IST" name="CreatecontactwithSystemDateTest" finished-at="2024-11-13T18:18:22 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.CreatecontactwithSystemDateTest(CreateContactTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatecontactwithSystemDateTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:22 IST" name="configAm" finished-at="2024-11-13T18:18:26 IST" duration-ms="3350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:26 IST" name="configBm" finished-at="2024-11-13T18:18:29 IST" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="createContactTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:29 IST" name="createContactTest" finished-at="2024-11-13T18:18:29 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.createContactTest(CreateContactTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:29 IST" name="configAm" finished-at="2024-11-13T18:18:32 IST" duration-ms="3498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:32 IST" name="configBm" finished-at="2024-11-13T18:18:35 IST" duration-ms="2740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="createContactTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:35 IST" name="createContactTest" finished-at="2024-11-13T18:18:35 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.createContactTest(CreateContactTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:35 IST" name="configAm" finished-at="2024-11-13T18:18:38 IST" duration-ms="3438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:38 IST" name="configBm" finished-at="2024-11-13T18:18:41 IST" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="createContactTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:41 IST" name="createContactTest" finished-at="2024-11-13T18:18:41 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.createContactTest(CreateContactTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:41 IST" name="configAm" finished-at="2024-11-13T18:18:44 IST" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:44 IST" name="configBm" finished-at="2024-11-13T18:18:47 IST" duration-ms="2723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="createContactTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:47 IST" name="createContactTest" finished-at="2024-11-13T18:18:47 IST" duration-ms="4" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.createContactTest(CreateContactTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:47 IST" name="configAm" finished-at="2024-11-13T18:18:51 IST" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:51 IST" name="configBm" finished-at="2024-11-13T18:18:54 IST" duration-ms="2683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="createContactTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:54 IST" name="createContactTest" finished-at="2024-11-13T18:18:54 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.createContactTest(CreateContactTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:54 IST" name="configAm" finished-at="2024-11-13T18:18:57 IST" duration-ms="3445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:18:57 IST" name="configBm" finished-at="2024-11-13T18:19:00 IST" duration-ms="2753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method signature="createContactTest()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:19:00 IST" name="createContactTest" finished-at="2024-11-13T18:19:00 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "Com.comcast.crm.genaric.WebDriverutility.UtilityClassObject.getTest()" is null
+at CreateContactRealTeatScriptUsingBaseClass.CreateContactTest.createContactTest(CreateContactTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:19:00 IST" name="configAm" finished-at="2024-11-13T18:19:03 IST" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configAc()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:19:03 IST" name="configAc" finished-at="2024-11-13T18:19:04 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAc -->
-        <test-method is-config="true" signature="configAs()[pri:0, instance:CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest@515aebb0]" started-at="2024-11-13T18:09:06 IST" name="configAs" finished-at="2024-11-13T18:09:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAs()[pri:0, instance:CreateContactRealTeatScriptUsingBaseClass.CreateContactTest@6d763516]" started-at="2024-11-13T18:19:04 IST" name="configAs" finished-at="2024-11-13T18:19:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAs -->
-      </class> <!-- CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest -->
+      </class> <!-- CreateContactRealTeatScriptUsingBaseClass.CreateContactTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -3,17 +3,19 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="CreateLeadsInrealTimeByUsingBaseClass.CreatingLeadsByUsiingBaseClassTest">
+      <class name="CreateContactRealTeatScriptUsingBaseClass.CreateContactTest">
         <methods>
           <include name="configAc"/>
           <include name="configAs"/>
           <include name="configBc"/>
           <include name="configBs"/>
-          <include name="CreateLeadsWithPhoneNumber"/>
+          <include name="CreateContactWithOrgNameTest"/>
+          <include name="createContactTest"/>
+          <include name="CreatecontactwithSystemDateTest"/>
           <include name="configAm"/>
           <include name="configBm"/>
         </methods>
-      </class> <!-- CreateLeadsInrealTimeByUsingBaseClass.CreatingLeadsByUsiingBaseClassTest -->
+      </class> <!-- CreateContactRealTeatScriptUsingBaseClass.CreateContactTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
