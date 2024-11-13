@@ -3,17 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass">
+      <class name="CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest">
         <methods>
           <include name="configAs"/>
           <include name="configAc"/>
+          <include name="CreateProductWithStartAndEndDateTset"/>
           <include name="configBs"/>
           <include name="configBc"/>
-          <include name="CreateOrgTest"/>
+          <include name="CreateProductWithPortNumberTest"/>
+          <include name="CreateProductTest"/>
           <include name="configAm"/>
           <include name="configBm"/>
         </methods>
-      </class> <!-- CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass -->
+      </class> <!-- CreateProductByUsingBaseClass.CreatingProductByUsingBaseClassTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
