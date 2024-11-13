@@ -69,15 +69,19 @@ String BROWSER1 = System.getProperty("browser");
 	public void configBm() throws IOException {
 		wu.maximize(driver);
 		wu.implicitWait(driver);
-String URL = System.getProperty("url");
+//String URL = System.getProperty("url");
 		//String URL = fu.getDataFromPropertyFile("url");
-		driver.get(URL);
+		//driver.get(URL);
 		System.out.println("=====login====");
 		//String USERNAME = fu.getDataFromPropertyFile("username");
 		//String PASSWORD = fu.getDataFromPropertyFile("password");
-		String USERNAME=System.getProperty("username");
-		String PASSWORD=System.getProperty("password");
-		
+		//String USERNAME=System.getProperty("username");
+		//String PASSWORD=System.getProperty("password");
+		 String URL=System.getProperty("url");
+			String BROWSER = System.getProperty("browser",fu.getDataFromPropertyFile("browser"));
+			String USERNAME = System.getProperty("username",fu.getDataFromPropertyFile("username"));
+	        String PASSWORD = System.getProperty("password",fu.getDataFromPropertyFile("password"));
+	        driver.get(URL);
 		
 		
 		LoginPage lp = new LoginPage(driver);
